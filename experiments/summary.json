@@ -1,0 +1,96 @@
+{
+ "n": 32,
+ "rules": {
+  "T1_two_contexts": {
+   "uniform_acc": 0.7949999999999999,
+   "global_acc": 0.685,
+   "local_acc": 0.5883333333333334,
+   "ideal_acc": 0.875,
+   "beats_global": 32,
+   "beats_local": 32,
+   "pass": true
+  },
+  "T2_sideways_transfer": {
+   "uniform_near": 0.8050237341772152,
+   "local_near": 0.4018917324286452,
+   "ideal_near": 0.9139386928860613,
+   "pass": true
+  },
+  "T3_boundary_holds": {
+   "uniform": 0.9356589147286822,
+   "global": 0.7310396785534907,
+   "ideal": 0.9724677948977014,
+   "above_global": 32,
+   "pass": true
+  },
+  "T4_evidence_travels": {
+   "sheet_gap": 0.4181021871114037,
+   "ideal_gap": 0.2395143016556216,
+   "median_extra_gap": 0.16394660894660903,
+   "pass": true
+  },
+  "T5_cut": {
+   "uniform_cut_acc": 0.5016666666666667,
+   "pass": true
+  },
+  "T6_boundary_learned": {
+   "below_within": 22,
+   "boundary_rank_median": 0.3181818181818182,
+   "weakest_at_boundary": 3,
+   "pass": false
+  }
+ },
+ "report": {
+  "ideal": {
+   "_acc": 0.875,
+   "_transfer": 0.885630707762557,
+   "_transfer_near": 0.9139386928860613,
+   "_transfer_far": 0.6428571428571429,
+   "_leak": 0.9724677948977014,
+   "_mse": 0.0
+  },
+  "learned": {
+   "_acc": 0.755,
+   "_transfer": 0.6541318789837508,
+   "_transfer_near": 0.720932407160032,
+   "_transfer_far": 0.2554112554112554,
+   "_leak": 0.9304628137232328,
+   "_mse": 0.20736653055878454
+  },
+  "uniform": {
+   "_acc": 0.7949999999999999,
+   "_transfer": 0.746334388185654,
+   "_transfer_near": 0.8050237341772152,
+   "_transfer_far": 0.3849206349206349,
+   "_leak": 0.9356589147286822,
+   "_mse": 0.1536817090903484
+  },
+  "local": {
+   "_acc": 0.5883333333333334,
+   "_transfer": 0.4076298701298701,
+   "_transfer_near": 0.4018917324286452,
+   "_transfer_far": 0.41885964912280704,
+   "_leak": 0.667549211465408,
+   "_mse": 0.373292944067143
+  },
+  "oracle": {
+   "_acc": 0.8191666666666666,
+   "_transfer": 0.7426635383106878,
+   "_transfer_near": 0.8098958333333333,
+   "_transfer_far": 0.28174603174603174,
+   "_leak": 0.9881832124930284,
+   "_mse": 0.12904815790954147
+  },
+  "global": {
+   "_acc": 0.685,
+   "_transfer": 0.7040227629513344,
+   "_transfer_near": 0.7150694009793453,
+   "_transfer_far": 0.6754385964912281,
+   "_leak": 0.7310396785534907,
+   "_mse": 0.2858083439701106
+  },
+  "learned_beats_uniform": 3,
+  "oracle_beats_uniform": 29
+ },
+ "all_rules_pass": false
+}

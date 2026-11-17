@@ -80,7 +80,7 @@ Also measured:
 1. **One context state can't hold two worlds; a sheet can.** The global *g* of the earlier machines is right only in whichever region last surprised it (0.69). The sheet holds each region's context in place (0.80, 32/32 bodies). In the heatmap you can see the two halves wear different colours whenever their rules differ.
 2. **The sheet does not need to know where the boundary is.** Evidence keeps arriving on both sides, so the field settles into two domains with a soft wall between them. Cutting the link at the true boundary helps only a little (0.82 against 0.80), and a switch on one side barely reaches the other (0.94).
 3. **Changing its mind takes time and travels.** A column next to an already-surprised one gets the new context 81% of the time; a far one 39%. The ideal observer, which has no space, falls off less. In the heatmap, flips appear as slanted fronts, not vertical lines. That is the property travelling-wave findings in cortex point to: perceptual switches in binocular rivalry have been seen to sweep across the visual field.
-4. **Neighbours cannot yet find the boundary by themselves.** The learned links dip at the boundary in most bodies (median link 0.40 there), but they also dip elsewhere. They never cut cleanly, and they cost accuracy. A rule that listens only to rare pings, one column per trial, is too noisy. This is the open problem.
+4. **Neighbours cannot yet find the boundary by themselves.** The learned links dip at the boundary in most bodies (median link 0.39 there, against 0.59 elsewhere), but they also dip at other places. They never cut cleanly, and they cost accuracy. A rule that listens only to rare pings, one column per trial, is too noisy. This is the open problem.
 
 ## Ledger
 
